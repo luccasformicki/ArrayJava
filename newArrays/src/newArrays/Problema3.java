@@ -39,7 +39,7 @@ public class Problema3 {
 		}
 			
 		mediaAltura = soma / n;
-		porcentagemIdade = ((double) idade / n ) * 100;
+		porcentagemIdade = ((double) idade * 100.0 ) / n;
 		
 		System.out.printf("Altura média: %.2f%n", mediaAltura);
 		System.out.printf("Pessoas Com menos de 16 anos: %.1f%%\n", porcentagemIdade);
